@@ -1,0 +1,401 @@
+{
+  "nodes": {
+    "crane": {
+      "locked": {
+        "lastModified": 1742394900,
+        "narHash": "sha256-vVOAp9ahvnU+fQoKd4SEXB2JG2wbENkpqcwlkIXgUC0=",
+        "owner": "ipetkov",
+        "repo": "crane",
+        "rev": "70947c1908108c0c551ddfd73d4f750ff2ea67cd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ipetkov",
+        "repo": "crane",
+        "type": "github"
+      }
+    },
+    "demo-buttons": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "rust-overlay": [
+          "rust-overlay"
+        ],
+        "utils": [
+          "flake-utils"
+        ]
+      },
+      "locked": {
+        "lastModified": 1743347387,
+        "narHash": "sha256-DYimrRqfYYnixPo8ITTLzejpfcDEqNpDL8hHrXxK3AM=",
+        "ref": "refs/heads/main",
+        "rev": "669a23d73c2023db572db862ad7fed635e8b7f01",
+        "revCount": 10,
+        "type": "git",
+        "url": "ssh://git@git.icewind.me/demostf/buttons.git"
+      },
+      "original": {
+        "type": "git",
+        "url": "ssh://git@git.icewind.me/demostf/buttons.git"
+      }
+    },
+    "demo-inspector": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "rust-overlay": [
+          "rust-overlay"
+        ],
+        "utils": [
+          "flake-utils"
+        ]
+      },
+      "locked": {
+        "lastModified": 1743347204,
+        "narHash": "sha256-f43nqCRXCz1jQH+0H23hkzE+xk/QO7ZWjf9sVA2bJgA=",
+        "owner": "demostf",
+        "repo": "inspector",
+        "rev": "f42df098636e1005c53af2023ebc49b35be21068",
+        "type": "github"
+      },
+      "original": {
+        "owner": "demostf",
+        "repo": "inspector",
+        "type": "github"
+      }
+    },
+    "demostf-api": {
+      "inputs": {
+        "flakelight": [
+          "flakelight"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1746285423,
+        "narHash": "sha256-iMU7C2g76w5d5CtxRW5H50FxY+UlOc5gSpjxxbVyqUw=",
+        "owner": "demostf",
+        "repo": "api",
+        "rev": "52b9bc09fd187bf3bbc11dbe4443af0e07a716a4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "demostf",
+        "repo": "api",
+        "type": "github"
+      }
+    },
+    "demostf-backup": {
+      "inputs": {
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1705254964,
+        "narHash": "sha256-5avFXpFOaJCfa41HhI+NpWH+jB/CcY9NuHY2wvYIqQQ=",
+        "owner": "demostf",
+        "repo": "backup-rs",
+        "rev": "a603ec8cfaa61eb70322c1181c52aeb459b41f8c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "demostf",
+        "repo": "backup-rs",
+        "type": "github"
+      }
+    },
+    "demostf-frontend": {
+      "inputs": {
+        "flakelight": [
+          "flakelight"
+        ],
+        "mill-scale": [
+          "mill-scale"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1743619938,
+        "narHash": "sha256-ojOz2swf880ZILrOeSDUhwu3QrZzX9YUUoVRUGMOmPc=",
+        "owner": "demostf",
+        "repo": "frontend",
+        "rev": "b74b145380e4c068350781cf6f32972330907b20",
+        "type": "github"
+      },
+      "original": {
+        "owner": "demostf",
+        "repo": "frontend",
+        "type": "github"
+      }
+    },
+    "demostf-migrate": {
+      "inputs": {
+        "flakelight": [
+          "flakelight"
+        ],
+        "mill-scale": [
+          "mill-scale"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1735053041,
+        "narHash": "sha256-bVvpxcUxHNP25Dmxk3PiEfvaeUSsRR6x28ngQPcNBiI=",
+        "owner": "demostf",
+        "repo": "migrate-rs",
+        "rev": "dcfbb4b637a386865bc10feb0ebc2908f1b85924",
+        "type": "github"
+      },
+      "original": {
+        "owner": "demostf",
+        "repo": "migrate-rs",
+        "type": "github"
+      }
+    },
+    "demostf-mover": {
+      "inputs": {
+        "flake-utils": [
+          "flake-utils"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1711542809,
+        "narHash": "sha256-/0YgLm2PPPmwZ463nn369XCwNLJaJm0UvXEGDKkKkvE=",
+        "owner": "demostf",
+        "repo": "mover",
+        "rev": "b361d49340b109de01d57ba695e45483b305b86e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "demostf",
+        "repo": "mover",
+        "type": "github"
+      }
+    },
+    "demostf-sync": {
+      "inputs": {
+        "flakelight": [
+          "flakelight"
+        ],
+        "mill-scale": [
+          "mill-scale"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1739136673,
+        "narHash": "sha256-mXK2h6WRZLCLQVIb5fGc7+Qt6nl/dHR9AaAexk3VOwc=",
+        "owner": "demostf",
+        "repo": "sync-rs",
+        "rev": "1fac177b9137268e1f5e28e54e470319750a4e38",
+        "type": "github"
+      },
+      "original": {
+        "owner": "demostf",
+        "repo": "sync-rs",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flakelight": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1746449252,
+        "narHash": "sha256-dFGAaYhaaDTfh08wetspJXt6KedYZwsfFpxZ68k9Qds=",
+        "owner": "nix-community",
+        "repo": "flakelight",
+        "rev": "d156dc871b3cdbe0b52169c4bc5171377a9bd6e0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "flakelight",
+        "type": "github"
+      }
+    },
+    "map-boundaries": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "utils": [
+          "flake-utils"
+        ]
+      },
+      "locked": {
+        "lastModified": 1743345178,
+        "narHash": "sha256-CkDlLVWWGxpnYnwtSKS+PZqbRnLmmZUeCyBviIv2fd0=",
+        "owner": "icewind1991",
+        "repo": "mapboundaries",
+        "rev": "5bf1631450c8a4fa97b8be1236beec451536ff35",
+        "type": "github"
+      },
+      "original": {
+        "owner": "icewind1991",
+        "repo": "mapboundaries",
+        "type": "github"
+      }
+    },
+    "mill-scale": {
+      "inputs": {
+        "crane": "crane",
+        "flakelight": [
+          "flakelight"
+        ],
+        "rust-overlay": [
+          "rust-overlay"
+        ]
+      },
+      "locked": {
+        "lastModified": 1746388890,
+        "narHash": "sha256-2QIoaGxC4yDazYfgnK+lprmA2PQ6Mb1QLro7fvyj2cM=",
+        "owner": "icewind1991",
+        "repo": "mill-scale",
+        "rev": "e7b07da5c0a5639acf308dc89ce729e73feb5129",
+        "type": "github"
+      },
+      "original": {
+        "owner": "icewind1991",
+        "repo": "mill-scale",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1746557022,
+        "narHash": "sha256-QkNoyEf6TbaTW5UZYX0OkwIJ/ZMeKSSoOMnSDPQuol0=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "1d3aeb5a193b9ff13f63f4d9cc169fb88129f860",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-24.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "demo-buttons": "demo-buttons",
+        "demo-inspector": "demo-inspector",
+        "demostf-api": "demostf-api",
+        "demostf-backup": "demostf-backup",
+        "demostf-frontend": "demostf-frontend",
+        "demostf-migrate": "demostf-migrate",
+        "demostf-mover": "demostf-mover",
+        "demostf-sync": "demostf-sync",
+        "flake-utils": "flake-utils",
+        "flakelight": "flakelight",
+        "map-boundaries": "map-boundaries",
+        "mill-scale": "mill-scale",
+        "nixpkgs": "nixpkgs",
+        "rust-overlay": "rust-overlay",
+        "vbsp-to-gltf": "vbsp-to-gltf"
+      }
+    },
+    "rust-overlay": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1746671794,
+        "narHash": "sha256-V+mpk2frYIEm85iYf+KPDmCGG3zBRAEhbv0E3lHdG2U=",
+        "owner": "oxalica",
+        "repo": "rust-overlay",
+        "rev": "ceec434b8741c66bb8df5db70d7e629a9d9c598f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "oxalica",
+        "repo": "rust-overlay",
+        "type": "github"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    },
+    "vbsp-to-gltf": {
+      "inputs": {
+        "flakelight": [
+          "flakelight"
+        ],
+        "mill-scale": [
+          "mill-scale"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1743344759,
+        "narHash": "sha256-dvIaK7ftEsQjQI0FAmVye+fjipXKbtwW5jQh/WE1BD4=",
+        "owner": "icewind1991",
+        "repo": "vbsp-to-gltf",
+        "rev": "0eb1875fb40c85b1684417acbc4651ae1c7725f8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "icewind1991",
+        "repo": "vbsp-to-gltf",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
