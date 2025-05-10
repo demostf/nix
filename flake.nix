@@ -96,7 +96,7 @@
         demostf-mover.nixosModules.default
         demostf-backup.nixosModules.default
         demostf-migrate.nixosModules.default
-        ./modules/api.nix
+        demostf-api.nixosModules.default
       ];
     };
   };
