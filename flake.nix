@@ -97,6 +97,7 @@
         demostf-backup.nixosModules.default
         demostf-migrate.nixosModules.default
         demostf-api.nixosModules.default
+        demostf-sync.nixosModules.default
       ];
     };
   };

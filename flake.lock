@@ -201,11 +201,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1739136673,
-        "narHash": "sha256-mXK2h6WRZLCLQVIb5fGc7+Qt6nl/dHR9AaAexk3VOwc=",
+        "lastModified": 1746885172,
+        "narHash": "sha256-jBykVRjsIjLEf0c/jtpwYQkBg8Mco/jfDHmzJVTheec=",
         "owner": "demostf",
         "repo": "sync-rs",
-        "rev": "1fac177b9137268e1f5e28e54e470319750a4e38",
+        "rev": "c11281384a13c735520012a32603ce6374e8e42a",
         "type": "github"
       },
       "original": {
